@@ -51,8 +51,8 @@ Mark Watt does an excellent job covering configuation [in this youtube video](ht
 
 | Name | Type | Default | Description
 | ---- | ---- | ------- | -----------
-| swipe_amount | number | 15 | Minimum percent of screen needed to be swiped in order to navigate.
-| skip_tabs | string | | A comma seperated list of views to skip when swiping. e.g., `1,3,5`.
+| swipe_amount | number | 15 | Pourcentage minimum de l'écran devant être balayé pour naviguer.
+| skip_tabs | string | | Une liste de vues, séparées par des virgules, à ignorer lors du passage de la souris. e.g., `1,3,5`.
 | skip_hidden | boolean | true | Automatically skips hidden tabs.
 | wrap | boolean | true | Wrap from first tab to last tab and vice versa.
 | prevent_default | boolean | false | Prevents the browsers default horizontal swipe actions. May require a browser refresh to take effect, if using an HA companion app this can be done by closing the app and reopening.
