@@ -5,39 +5,39 @@
 Swipe through Lovelace views on mobile.
 
 # Features:
-* Animated swiping through Lovelace views.
-* Configure views to skip over.
-* Set the swipe length needed.
-* Option to disable a browsers default swipe actions.
-* Wrap from first view to last view and vice versa.
-* Support RTL languages.
+* Balayage animé des vues Lovelace.
+* Configurer les vues à ignorer.
+* Définir la longueur de balayage nécessaire.
+* Option pour désactiver les actions de balayage par défaut des navigateurs.
+* Possibilité de passer de la première à la dernière vue et vice versa.
+* Supporte les langues RTL.
 
 # Installation:
-Follow only one of these installation methods.
+Ne suivez qu'une seule de ces méthodes d'installation
 
 <details>
   <summary><b>Installation and tracking with HACS:</b></summary>
 
-1. In "Frontend" hit the plus at the bottom right, search for "swipe navigation" and install.
+1. Dans "Frontend", cliquez sur le plus en bas à droite, recherchez "swipe navigation" et installez.
 
-2. Refresh the Lovelace page, may need to clear cache.
+2. Rafraîchissez la page Lovelace, vous devrez peut-être vider le cache.
 </details>
 
 <details>
   <summary><b>Manual installation:</b></summary>
   
-1. Copy [swipe-navigation.js](https://github.com/maykar/lovelace-swipe-navigation/releases/latest) from the latest release into `/www/lovelace-swipe-navigation/`
+1. Copié [swipe-navigation.js](https://github.com/maykar/lovelace-swipe-navigation/releases/latest) de la dernière version dans `/www/lovelace-swipe-navigation/`
 
-2. Add the resource in `ui-lovelace.yaml` or in Lovelace Resources.
+2. Ajoutez la ressource dans `ui-lovelace.yaml` ou dans Lovelace Resources.
 
 ```yaml
 resources:
-  # increase this version number at end of URL after each update
+  # augmenter ce numéro de version à la fin de l'URL après chaque mise à jour
   - url: /local/lovelace-swipe-navigation/swipe-navigation.js?v=1.0.0
     type: module
 ```
 
-3. Refresh the page, may need to clear cache.
+3. Rafraîchissez la page, vous devrez peut-être vider le cache.
 </details>
 
 # Config:
